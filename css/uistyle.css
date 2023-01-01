@@ -1,0 +1,230 @@
+body{
+  background-image:linear-gradient(to top right, #BFEAF5,#C0DEFF);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon{
+  width: 1.2em;
+  height: 1.2em;
+}
+.page{
+width: 40em;
+height: 40em;
+margin-left: auto;
+margin-right: auto;
+}
+.download{
+  transition-duration: 0.4s;
+  border-width: 0;
+  background-color: transparent;
+  margin-top: 0;
+  float: right;
+}
+.download:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.education{
+  width: 10em;
+  height: 10em;
+  margin: 3.3em;
+  background-color: transparent;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/42/42972.png");
+  background-size: cover;
+  transition-duration: 0.4s;
+  background-repeat: no-repeat;
+  border-width: 0;
+
+  position: relative;
+  display: inline-block;
+}
+.education:hover{
+  width: 10em;
+  height: 10em;
+  background-color: transparent;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2201/2201570.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.education .educationtext{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.education:hover .educationtext {
+  visibility: visible;
+}
+
+.experience{
+  width: 10em;
+  height: 10em;
+  margin: 3.3em;
+  background-color: transparent;
+  background-image: url("https://library.kissclipart.com/20180831/apq/kissclipart-work-icon-clipart-computer-icons-symbol-0dc90dd180095190.png");
+  background-size: cover;
+  transition-duration: 0.4s;
+  background-repeat: no-repeat;
+  border-width: 0;
+
+  position: relative;
+  display: inline-block;
+}
+.experience:hover{
+  width: 10em;
+  height: 10em;
+  background-color: transparent;
+  background-image: url("https://www.freeiconspng.com/thumbs/experience/blue-circle-handbag-experience-icon-9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.experience .experiencetext{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.experience:hover .experiencetext {
+  visibility: visible;
+}
+
+.project{
+  width: 10em;
+  height: 10em;
+  margin: 3.3em;
+  background-color: transparent;
+  background-image: url("https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_200/https://ioms.ac/wp-content/uploads/2018/10/project-management-icon-png-27.png");
+  background-size: cover;
+  transition-duration: 0.4s;
+  background-repeat: no-repeat;
+  border-width: 0;
+
+  position: relative;
+  display: inline-block;
+}
+.project:hover{
+  width: 10em;
+  height: 10em;
+  background-color: transparent;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/5956/5956592.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project .projecttext{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.project:hover .projecttext {
+  visibility: visible;
+}
+
+.name{
+margin: 1.5em auto 1.5em auto;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 2em;
+position: relative;
+width: max-content
+}
+.name::before,
+.name::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.name::before
+{
+  background-image: linear-gradient(to top right, #BFEAF5,#C0DEFF);
+  animation: typewriter 2s steps(16) forwards;
+}
+
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+}
+
+.info {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+
+.info .infotext {
+  visibility: hidden;
+  width: 12em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6em;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.info:hover .infotext {
+  visibility: visible;
+}
+
+.bottom{
+  text-align: center;
+  font-size: 1em;
+}
+
+.description
+{
+  text-align: center;
+  font-size: 1.2em;
+}
+a:hover
+{
+  cursor: pointer;
+}
+
+a:visited
+{
+color: blue;
+}

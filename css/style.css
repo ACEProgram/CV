@@ -1,0 +1,51 @@
+h3{
+  margin: 0 0;
+}
+
+hr{
+border-width: 0.1em;
+border-color: black;
+}
+
+.heading{
+  text-align: center;
+  margin: 0;
+  text-decoration: underline;
+}
+.address{
+  text-align: left;
+  margin: 0
+}
+.list{
+  margin: 0;
+  white-space: nowrap;
+}
+
+.icon{
+  width: 3em;
+  height: 3em;
+}
+
+.education{
+  font-size: 1.0em;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 2em;
+}
+
+.experience{
+  font-size: 1.0em;
+  padding-right: 5em;
+}
+.project{
+  font-size: 0.8em;
+  padding-right: 5em;
+}
+
+.skill{
+  font-size: 0.8em;
+}
+a
+{
+  cursor: pointer;
+}
